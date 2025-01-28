@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Raj</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="nav-bar">
+        <div class="logo">Mayank Raj</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Mayank Raj</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#certificates" onclick="toggleMenu()">Certifications</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="profile-pic">
+            <img src="images/profile.jpg" alt="Profile Pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p11">Hello, I'm</p>
+            <h1 class="title">Mayank Raj</h1>
+            <p class="section__text__p2">Full Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('images/resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href = '#contact'">Contact Info</button>
+            </div>
+            <div id="socials">
+                <img src="images/linkedin.png" alt="linkedin" class="icon" onclick="location.href = 'https://www.linkedin.com/in/mayank-raj-88852618b/'">
+                <img src="images/github.png" alt="github" class="icon" onclick="location.href = 'https://github.com/Mayank70080'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-pic">
+                <img src="images/pic1.jpg" alt="profile-pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="images/experience.png" alt="experience" class="icon">
+                        <h3>Experience</h3>
+                        <h6 class="abouth6">General Manager (Self Employed) 2022-2024</h6>
+                        <p class="aboutp">Hotel Sumedha Premium New Delhi</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="images/education.png" alt="education" class="icon">
+                        <h3>Education</h3>
+                        <h6 class="abouth6">Graduation - BTech (CSE) 2019-2023</h6>
+                        <p class="aboutp">From Jaypee Institute Of Information Technology</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hi, I am Mayank Raj. A technology and operations enthusiast with 2 years of experience as a Operations Manager. After graduating from Jaypee Institute of Information Technology, I ended up taking charge of my family business which opened me to the world of operations.
+                        Now I am looking for a role that will help me put my technology skills to test as a Full Stack Developer.</p>
+                </div>
+            </div>
+        </div>
+        <img src="images/arrow.png" alt="" class="icon arrow" onclick="location.href = '#skills'">
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Front-End Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/html.png" alt="html-icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/css.png" alt="css-icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/bootstrap.png" alt="html-icon" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/js.png" alt="javascript-icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">BackEnd Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/node.png" alt="node-icon" class="icon">
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/psql.png" alt="psql-icon" class="icon">
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/python.png" alt="python-icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/c.png" alt="c-icon" class="icon">
+                            <div>
+                                <h3>C++</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="images/arrow.png" alt="" class="icon arrow" onclick="location.href = '#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <h2 class="skills-sub-title project-title">Identity Reconciliation</h2>
+                    <p>A website designed to help firms keep track of a customer's identity across multiple purchases. It collects the data and contact of users
+                        and stores it in a database, and recognizes if the account is primary or secondary. It links all the accounts using same phone no or email
+                        under one primary account according to the date created and sets all other accounts as secondary. It is also integrated with an Email-OTP verification.</p>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="skills-sub-title project-title">Resume Builder</h2>
+                    <p>A website designed towards helping people draft actionable resumes with various template options to choose from. It lets users then download the resume in
+                        various formats such as DOC, PDF etc, or share it via email. It also had an inbuilt chat bot feature that integrated chat GPT’s generative AI abilities to help with the content of the resume.</p>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="skills-sub-title project-title">Seminar Hall Booking System</h2>
+                    <p>A website developed to streamline the online auditorium and hall management booking system across universities and schools. It lets
+                        users book a seat of their choice in advance for upcoming events. A user first needs to create account and then under events section
+                        they can go through all the upcoming events posted by schools and universities. It also helps a user go through their past bookings
+                        under the profile section</p>
+                </div>
+            </div>
+        </div>
+        <img src="images/arrow.png" alt="" class="icon arrow" onclick="location.href = '#certificates'">
+    </section>
+    <section id="certificates">
+        <p class="section__text__p1">More About My</p>
+        <h1 class="title">Certifications</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="images/experience.png" alt="" class="icon">
+                    <h3>IBM Full Stack Developer</h3>
+                    <p>Issuing Authority - Coursera</p>
+                    <p>Issued on - January 2025</p>
+                </div>
+                <div class="details-container">
+                    <img src="images/experience.png" alt="" class="icon">
+                    <h3>Accenture North America Data Analytics and Visualization Job Simulation</h3>
+                    <p>Issuing Authority - Forage</p>
+                    <p>Issued on - August 2024</p>
+                </div>
+            </div>
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="images/experience.png" alt="" class="icon">
+                    <h3>Software Developer Intern</h3>
+                    <p>Issuing Authority - HackerRank</p>
+                    <p>Issued on - August 2024</p>
+                </div>
+                <div class="details-container">
+                    <img src="images/experience.png" alt="" class="icon">
+                    <h3>SQL Basics</h3>
+                    <p>Issuing Authority - HackerRank</p>
+                    <p>Issued on - July 2024</p>
+                </div>
+            </div>
+        </div>
+        <img src="images/arrow.png" alt="" class="icon arrow" onclick="location.href = '#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="images/email.png" alt="" class="icon email-icon contact-icon">
+                <p><a href="mailto:mayankraj70080@gmail.com">mayankraj70080@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="images/linkedin.png" alt="" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/mayank-raj-88852618b/">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
